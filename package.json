@@ -1,0 +1,32 @@
+{
+	"name": "file-merge",
+	"version": "1.0.0",
+	"description": "Merges files. Can use config file. Uses globs. Traverses directory tree.",
+	"main": "./gen/index.js",
+	"bin": {
+		"file-merge": "./bin/file-merge"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"files",
+		"merge",
+		"concat",
+		"concatenate",
+		"css",
+		"join",
+		"cli",
+		"glob"
+	],
+	"author": "JsonHunt",
+	"repository": "https://github.com/JsonHunt/file-merge",
+	"license": "ISC",
+	"dependencies": {
+		"async": "^0.9.0",
+		"cson": "^3.0.1",
+		"minimatch": "^2.0.4",
+		"path": "^0.11.14",
+		"underscore": "^1.8.2"
+	}
+}

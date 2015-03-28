@@ -1,0 +1,4 @@
+include: ["**/*.cson"]
+exclude: ["dupa/*.css"]
+root: "."
+output: "merged-file.txt"
